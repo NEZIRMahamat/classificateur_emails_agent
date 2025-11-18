@@ -78,7 +78,7 @@ def process_all_emails():
             urgence = result["urgence"]
             resume = result["resume"]
 
-            print(f"📌 Catégorie détectée : {categorie}")
+            print(f" Catégorie détectée : {categorie}")
             print(f"⚠️  Urgence : {urgence}")
             print(f"📝 Résumé : {resume[:150]}...")
 
